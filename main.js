@@ -49,10 +49,10 @@ slider.oninput = function (event) {
   output.innerHTML = event.target.value;
 }
 
-let includeUppercase = false;
-let includeLowercase = false;
-let includeSpecialCharacters = false;
-let includeNumbers = false;
+let includeUppercase = true;
+let includeLowercase = true;
+let includeSpecialCharacters = true;
+let includeNumbers = true;
  
 
 function handleCheckboxChange(event) {

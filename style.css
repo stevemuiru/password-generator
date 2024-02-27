@@ -4,11 +4,11 @@
 body{
     display: grid;
     place-items: center;
-    background-color: #3aafa9;
+    background-color: #fff;
     font-family: "Mierb03", "Helvetica", "Arial", sans-serif;
   }
   p{
-    color: #def2f1;
+    color: #242582;
     font-size: 180%;
   }
   h1, h2{
@@ -21,8 +21,11 @@ body{
     border: 0;
     border-radius: 3px;
     color: #05386b;
-    background-color: #8ee4af;
+    background-color: #f64c72;
     cursor: pointer;
+    min-width: 80px; 
+    min-height: 25px;
+    font-size: 17px;
   }
   #copy{
     border: 0;
@@ -30,6 +33,7 @@ body{
     border-radius: 19px;
     background-color: #0070f6;
     color: #f0f7ff;
+    font-size: 16px;
   }
   #copy:hover{
     cursor: pointer;
@@ -49,5 +53,7 @@ body{
     width: 100%;
   }
 
-  
+.form{
+  font-size:24px;
+}  
   
