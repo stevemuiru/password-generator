@@ -42,7 +42,7 @@ body{
   #display{
     padding: 2.5px;
     margin: 10px 0;
-    border: 2px solid #eee;
+    border: 1px solid #f64c72;
     border-radius: 10px;
     font-family: inherit;
     font-size: inherit
@@ -56,4 +56,4 @@ body{
 .form{
   font-size:24px;
 }  
-  
+
